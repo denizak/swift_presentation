@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Outline'/>
         <page name='Hello World'/>
         <page name='Swift Syntax'/>
         <page name='Swift Speed'/>
+        <page name='Swift Programming Performance'/>
+        <page name='Swift Clean Code'/>
         <page name='Playground Sample'/>
     </pages>
 </playground>
