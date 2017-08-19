@@ -1,6 +1,6 @@
 import Foundation
 
-struct UserAPIModel {
+public struct UserAPIModel {
     let id: String
     let lastUpdate: Date
     let name: String

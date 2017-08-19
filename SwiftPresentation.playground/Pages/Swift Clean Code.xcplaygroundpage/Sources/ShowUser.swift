@@ -1,13 +1,16 @@
 import Foundation
 
-protocol ShowUser {
+public protocol ShowUser {
     func getAllUsers() -> [User]
 }
 
-struct ShowUserImpl: ShowUser {
-    let userAPI: UserAPI
+public struct ShowUserImpl: ShowUser {
+    public init(userAPI: UserAPI) {
+        self.userAPI = userAPI
+    }
     
-    func getAllUsers() -> [User] {
+    let userAPI: UserAPI
+    public func getAllUsers() -> [User] {
         
         return userAPI.fetchUsers()
             .map {
