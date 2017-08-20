@@ -3,10 +3,12 @@
     <pages>
         <page name='Outline'/>
         <page name='Hello World'/>
-        <page name='Swift Syntax'/>
-        <page name='Swift Speed'/>
-        <page name='Swift Programming Performance'/>
-        <page name='Swift Clean Code'/>
+        <page name='Object Oriented'/>
+        <page name='Speed'/>
+        <page name='Programming Performance'/>
+        <page name='Clean Code'/>
+        <page name='Ecosystem'/>
+        <page name='Learn Swift'/>
         <page name='Playground Sample'/>
     </pages>
 </playground>
