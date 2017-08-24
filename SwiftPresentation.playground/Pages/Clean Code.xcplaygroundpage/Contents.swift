@@ -22,5 +22,11 @@ userViewModel.loadUser { users in
     }
 }
 
+// Tests
+
+UserAPIMockTests.defaultTestSuite().run()
+ShowUserImplTests.defaultTestSuite().run()
+UserViewModelTests.defaultTestSuite().run()
+
 // Why we should use interactor?
 //: [⬅️](@previous) [➡️](@next)

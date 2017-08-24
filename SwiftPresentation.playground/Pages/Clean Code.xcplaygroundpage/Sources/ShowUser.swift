@@ -4,6 +4,19 @@ public protocol ShowUser {
     func getAllUsers() -> [User]
 }
 
+import XCTest
+public class ShowUserImplTests: XCTestCase {
+    var showUser: ShowUserImpl!
+    override public func setUp() {
+        super.setUp()
+        showUser = ShowUserImpl(userAPI: UserAPIMock())
+    }
+    
+    func testGetAllUsers() {
+        XCTAssertGreaterThan(showUser.getAllUsers().count, 0)
+    }
+}
+
 public struct ShowUserImpl: ShowUser {
     public init(userAPI: UserAPI) {
         self.userAPI = userAPI

@@ -14,5 +14,6 @@
         <page name='Liputan6'/>
         <page name='Vidio'/>
         <page name='Job Market'/>
+        <page name='SwiftJava'/>
     </pages>
 </playground>
