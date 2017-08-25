@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Outline'/>
         <page name='Logo'/>
         <page name='Hello World'/>
+        <page name='Version'/>
         <page name='OpenSource'/>
         <page name='Speed'/>
         <page name='Programming Performance'/>
-        <page name='Version'/>
         <page name='Optional'/>
         <page name='Protocol Oriented Programming'/>
         <page name='Clean Code'/>
