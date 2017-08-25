@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='Outline'/>
+        <page name='Logo'/>
         <page name='Hello World'/>
         <page name='Object Oriented'/>
         <page name='Speed'/>
