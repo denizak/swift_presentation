@@ -16,10 +16,12 @@ public class UserViewModelTests: XCTestCase {
     
     func testGetAllUsers() {
         let expect = expectation(description: "")
-        userViewModel.loadUser { users in
+        userViewModel.userLoaded = {
+            users in
             XCTAssertGreaterThan(users.count, 0)
             expect.fulfill()
         }
+        userViewModel.loadUser()
         
         waitForExpectations(timeout: 1, handler: nil)
     }
@@ -30,9 +32,12 @@ public struct UserViewModel {
         self.showUser = showUser
     }
     
+    public var userLoaded : (([User]) -> Void)?
+    
     let showUser: ShowUser
-    public func loadUser(completion: (_ users: [User]) -> Void) {
+    public func loadUser() {
         let users = showUser.getAllUsers()
-        completion(users)
+        guard let userLoaded = userLoaded else { return }
+        userLoaded(users)
     }
 }

@@ -14,13 +14,14 @@ userViewModel1.loadUser { users in
 
 let userAPI = UserAPIMock()
 let showUser = ShowUserImpl(userAPI: userAPI)
-let userViewModel = UserViewModel(showUser: showUser)
+var userViewModel = UserViewModel(showUser: showUser)
 
-userViewModel.loadUser { users in
+userViewModel.userLoaded = { users in
     users.forEach{ user in
         print("User name: \(user.name)")
     }
 }
+userViewModel.loadUser()
 
 // Tests
 
