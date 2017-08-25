@@ -1,5 +1,5 @@
 /*:
- ## Object Oriented Swift
+ ## Protocol Oriented Programming
  */
 protocol Greet {
     func sayIt()

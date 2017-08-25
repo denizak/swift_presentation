@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='rendered'>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
         <page name='Outline'/>
         <page name='Logo'/>
         <page name='Hello World'/>
-        <page name='Object Oriented'/>
+        <page name='OpenSource'/>
         <page name='Speed'/>
         <page name='Programming Performance'/>
         <page name='Version'/>
-        <page name='Server Side'/>
+        <page name='Optional'/>
+        <page name='Protocol Oriented Programming'/>
         <page name='Clean Code'/>
         <page name='Ecosystem'/>
+        <page name='Community'/>
+        <page name='Library'/>
+        <page name='Server Side'/>
         <page name='Learn Swift'/>
+        <page name='SwiftPlayground'/>
         <page name='Liputan6'/>
         <page name='Vidio'/>
         <page name='Job Market'/>
